@@ -1,0 +1,16 @@
+{
+    "name/of-thingy",
+    event = "SomethingLazy",
+    config = function()
+        require("of-thingy").setup({
+            --config
+        }),
+        Worth noting that other options can be included here,
+            especially in the case of older plugins.
+        For example, in our auto-pairs plugin, we set
+            vim.g.SomeSettingIForgetTheNameOf = 1, (aka true),
+    end
+}
+
+Oh, that's actually way the fuck more readable now
+Nice.

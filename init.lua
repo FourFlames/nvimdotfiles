@@ -1,0 +1,5 @@
+require("config.remap")
+require("config.basic")
+require("config.init-lazy")
+require("config.setup-plugins")
+require("config.qol")
